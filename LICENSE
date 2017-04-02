@@ -1,0 +1,28 @@
+To the extent possible under law, Andrew MacDonald has waived all copyright and
+related or neighboring rights to this work (the Python scripts used to produce
+derived datasets from the included public domain data). This work is published
+from: Australia.
+
+The data files in this project are all in the Public Domain and derived from the
+following public domain data sets.
+
+Streamflow data for usgs_02430680 sourced from "USGS Surface-Water Data for the Nation":
+    https://waterdata.usgs.gov/nwis/sw
+
+    Credit: U.S. Geological Survey
+    Department of the Interior/USGS
+
+Catchment boundary USGS_02430680.geojson derived from:
+    Viger, Roland J. and Bock, Andrew, 2014, GIS Features of the Geospatial Fabric for National Hydrologic Modeling, US Geological Survey, http://dx.doi.org/doi:10.5066/F7542KMD.
+
+    Roland J. Viger, 2014, Preliminary spatial parameters for PRMS based on the Geospatial Fabric, NLCD2001 and SSURGO, US Geological Survey, http://dx.doi.org/doi:10.5066/F7WM1BF7.
+
+"USGS-authored or produced data and information are considered to be in the U.S. public domain." - https://www2.usgs.gov/laws/info_policies.html#copyrights
+
+The rainfall series was derived from the CPC US Unified Precipitation grids by selecting the grid points that overlap the catchment boundry extracted from the Geospatial Fabric:
+    CPC US Unified Precipitation data provided by the NOAA/OAR/ESRL PSD, Boulder, Colorado, USA, from their Web site at http://www.esrl.noaa.gov/psd/ specifically: https://www.esrl.noaa.gov/psd/cgi-bin/db_search/DBListFiles.pl?did=125&tid=54729&vid=2415
+
+"NOAA/NESDIS websites are provided as a public service by the U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Environmental Satellite, Data and Information Service. Information presented on these webpages is considered public information and may be distributed or copied." - https://www.nodc.noaa.gov/about/disclaimer.html
+
+PET data from ORNL:
+    Vogel, R.M., and A. Sankarasubramanian. 2015. Monthly Climate Data for Selected USGS HCDN Sites, 1951-1990, R1. ORNL DAAC, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/810
