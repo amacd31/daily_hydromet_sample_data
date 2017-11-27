@@ -11,6 +11,6 @@ cumecs = pd.read_csv(
 )['79623_00060'] * 0.0283168
 
 # Convert from cumecs to average ML/day
-ml_per_day = cumecs.resample('D').mean() * 86.4
+ml_per_day = cumecs.tz_localize('Etc/GMT+5').tz_convert('UTC').resample('D').mean() * 86.4
 
 ml_per_day.to_csv('USGS_02430680_streamflow.csv')
